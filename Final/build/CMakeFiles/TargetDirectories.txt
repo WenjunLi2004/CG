@@ -1,0 +1,3 @@
+/Users/wenjun/Documents/CG/Final/build/CMakeFiles/FinalArmLab.dir
+/Users/wenjun/Documents/CG/Final/build/CMakeFiles/edit_cache.dir
+/Users/wenjun/Documents/CG/Final/build/CMakeFiles/rebuild_cache.dir
