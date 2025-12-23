@@ -3,17 +3,17 @@
 
 # compile C with /usr/bin/clang
 # compile CXX with /usr/bin/clang++
-C_DEFINES = 
+C_DEFINES = -DGL_SILENCE_DEPRECATION
 
-C_INCLUDES = -I/Users/wenjun/Documents/CG/Final/include -isystem /opt/homebrew/include
+C_INCLUDES = -I/Users/wenjun/Documents/GitHub/CG/Final/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include
 
 C_FLAGSarm64 = -g -arch arm64
 
 C_FLAGS = -g -arch arm64
 
-CXX_DEFINES = 
+CXX_DEFINES = -DGL_SILENCE_DEPRECATION
 
-CXX_INCLUDES = -I/Users/wenjun/Documents/CG/Final/include -isystem /opt/homebrew/include
+CXX_INCLUDES = -I/Users/wenjun/Documents/GitHub/CG/Final/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include
 
 CXX_FLAGSarm64 = -g -std=c++11 -arch arm64
 

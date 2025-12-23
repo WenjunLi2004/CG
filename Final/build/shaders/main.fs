@@ -36,6 +36,10 @@ uniform sampler2D diffuseMap;
 uniform sampler2D shadowMap;
 uniform int useTexture;
 uniform vec2 uvScale;
+uniform float ambientBoost;
+uniform vec3 fillLight;
+uniform int lightEnabled;
+uniform float roomAmbient;
 
 float ShadowCalculation(vec4 lightSpacePos, vec3 normal, vec3 lightDir) {
     vec3 projCoords = lightSpacePos.xyz / lightSpacePos.w;
@@ -64,13 +68,16 @@ void main() {
     float theta = dot(lightDir, normalize(-light.direction));
     float epsilon = light.cutOff - light.outerCutOff;
     float intensity = clamp((theta - light.outerCutOff) / epsilon, 0.0, 1.0);
+    if (lightEnabled == 0) {
+        intensity = 0.0;
+    }
 
     vec3 baseColor = fs_in.Color;
     if (useTexture == 1) {
         baseColor = texture(diffuseMap, fs_in.TexCoord * uvScale).rgb;
     }
 
-    vec3 ambient = light.ambient * material.ambient * baseColor;
+    vec3 ambient = roomAmbient * baseColor + light.ambient * material.ambient * baseColor + ambientBoost * baseColor + fillLight * baseColor;
 
     float diff = max(dot(norm, lightDir), 0.0);
     vec3 diffuse = light.diffuse * (diff * material.diffuse * baseColor);

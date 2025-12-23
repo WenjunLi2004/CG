@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/wenjun/Documents/CG/Final/build/cmake_install.cmake"
+		"/Users/wenjun/Documents/GitHub/CG/Final/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

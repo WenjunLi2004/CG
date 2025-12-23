@@ -54,10 +54,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wenjun/Documents/CG/Final
+CMAKE_SOURCE_DIR = /Users/wenjun/Documents/GitHub/CG/Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wenjun/Documents/CG/Final/build
+CMAKE_BINARY_DIR = /Users/wenjun/Documents/GitHub/CG/Final/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -85,14 +85,14 @@ clean: CMakeFiles/FinalArmLab.dir/clean
 CMakeFiles/FinalArmLab.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FinalArmLab.dir/build.make CMakeFiles/FinalArmLab.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FinalArmLab.dir/build.make CMakeFiles/FinalArmLab.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wenjun/Documents/CG/Final/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target FinalArmLab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wenjun/Documents/GitHub/CG/Final/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target FinalArmLab"
 .PHONY : CMakeFiles/FinalArmLab.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/FinalArmLab.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wenjun/Documents/CG/Final/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wenjun/Documents/GitHub/CG/Final/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FinalArmLab.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wenjun/Documents/CG/Final/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wenjun/Documents/GitHub/CG/Final/build/CMakeFiles 0
 .PHONY : CMakeFiles/FinalArmLab.dir/rule
 
 # Convenience name for target.
@@ -102,7 +102,7 @@ FinalArmLab: CMakeFiles/FinalArmLab.dir/rule
 # codegen rule for target.
 CMakeFiles/FinalArmLab.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/FinalArmLab.dir/build.make CMakeFiles/FinalArmLab.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wenjun/Documents/CG/Final/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target FinalArmLab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/wenjun/Documents/GitHub/CG/Final/build/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Finished codegen for target FinalArmLab"
 .PHONY : CMakeFiles/FinalArmLab.dir/codegen
 
 # clean rule for target.

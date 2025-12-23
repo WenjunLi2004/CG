@@ -1,38 +1,38 @@
 [
 {
-  "directory": "/Users/wenjun/Documents/CG/Final/build",
-  "command": "/usr/bin/clang++  -I/Users/wenjun/Documents/CG/Final/include -isystem /opt/homebrew/include -g -std=c++11 -arch arm64 -o CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o -c /Users/wenjun/Documents/CG/Final/src/Camera.cpp",
-  "file": "/Users/wenjun/Documents/CG/Final/src/Camera.cpp",
+  "directory": "/Users/wenjun/Documents/GitHub/CG/Final/build",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -I/Users/wenjun/Documents/GitHub/CG/Final/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++11 -arch arm64 -o CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o -c /Users/wenjun/Documents/GitHub/CG/Final/src/Camera.cpp",
+  "file": "/Users/wenjun/Documents/GitHub/CG/Final/src/Camera.cpp",
   "output": "CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o"
 },
 {
-  "directory": "/Users/wenjun/Documents/CG/Final/build",
-  "command": "/usr/bin/clang++  -I/Users/wenjun/Documents/CG/Final/include -isystem /opt/homebrew/include -g -std=c++11 -arch arm64 -o CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o -c /Users/wenjun/Documents/CG/Final/src/InitShader.cpp",
-  "file": "/Users/wenjun/Documents/CG/Final/src/InitShader.cpp",
+  "directory": "/Users/wenjun/Documents/GitHub/CG/Final/build",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -I/Users/wenjun/Documents/GitHub/CG/Final/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++11 -arch arm64 -o CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o -c /Users/wenjun/Documents/GitHub/CG/Final/src/InitShader.cpp",
+  "file": "/Users/wenjun/Documents/GitHub/CG/Final/src/InitShader.cpp",
   "output": "CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o"
 },
 {
-  "directory": "/Users/wenjun/Documents/CG/Final/build",
-  "command": "/usr/bin/clang++  -I/Users/wenjun/Documents/CG/Final/include -isystem /opt/homebrew/include -g -std=c++11 -arch arm64 -o CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o -c /Users/wenjun/Documents/CG/Final/src/MeshPainter.cpp",
-  "file": "/Users/wenjun/Documents/CG/Final/src/MeshPainter.cpp",
+  "directory": "/Users/wenjun/Documents/GitHub/CG/Final/build",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -I/Users/wenjun/Documents/GitHub/CG/Final/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++11 -arch arm64 -o CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o -c /Users/wenjun/Documents/GitHub/CG/Final/src/MeshPainter.cpp",
+  "file": "/Users/wenjun/Documents/GitHub/CG/Final/src/MeshPainter.cpp",
   "output": "CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o"
 },
 {
-  "directory": "/Users/wenjun/Documents/CG/Final/build",
-  "command": "/usr/bin/clang++  -I/Users/wenjun/Documents/CG/Final/include -isystem /opt/homebrew/include -g -std=c++11 -arch arm64 -o CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o -c /Users/wenjun/Documents/CG/Final/src/TriMesh.cpp",
-  "file": "/Users/wenjun/Documents/CG/Final/src/TriMesh.cpp",
+  "directory": "/Users/wenjun/Documents/GitHub/CG/Final/build",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -I/Users/wenjun/Documents/GitHub/CG/Final/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++11 -arch arm64 -o CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o -c /Users/wenjun/Documents/GitHub/CG/Final/src/TriMesh.cpp",
+  "file": "/Users/wenjun/Documents/GitHub/CG/Final/src/TriMesh.cpp",
   "output": "CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o"
 },
 {
-  "directory": "/Users/wenjun/Documents/CG/Final/build",
-  "command": "/usr/bin/clang  -I/Users/wenjun/Documents/CG/Final/include -isystem /opt/homebrew/include -g -arch arm64 -o CMakeFiles/FinalArmLab.dir/src/glad.c.o -c /Users/wenjun/Documents/CG/Final/src/glad.c",
-  "file": "/Users/wenjun/Documents/CG/Final/src/glad.c",
+  "directory": "/Users/wenjun/Documents/GitHub/CG/Final/build",
+  "command": "/usr/bin/clang -DGL_SILENCE_DEPRECATION -I/Users/wenjun/Documents/GitHub/CG/Final/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -arch arm64 -o CMakeFiles/FinalArmLab.dir/src/glad.c.o -c /Users/wenjun/Documents/GitHub/CG/Final/src/glad.c",
+  "file": "/Users/wenjun/Documents/GitHub/CG/Final/src/glad.c",
   "output": "CMakeFiles/FinalArmLab.dir/src/glad.c.o"
 },
 {
-  "directory": "/Users/wenjun/Documents/CG/Final/build",
-  "command": "/usr/bin/clang++  -I/Users/wenjun/Documents/CG/Final/include -isystem /opt/homebrew/include -g -std=c++11 -arch arm64 -o CMakeFiles/FinalArmLab.dir/src/main.cpp.o -c /Users/wenjun/Documents/CG/Final/src/main.cpp",
-  "file": "/Users/wenjun/Documents/CG/Final/src/main.cpp",
+  "directory": "/Users/wenjun/Documents/GitHub/CG/Final/build",
+  "command": "/usr/bin/clang++ -DGL_SILENCE_DEPRECATION -I/Users/wenjun/Documents/GitHub/CG/Final/include -F/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -isystem /opt/homebrew/include -g -std=c++11 -arch arm64 -o CMakeFiles/FinalArmLab.dir/src/main.cpp.o -c /Users/wenjun/Documents/GitHub/CG/Final/src/main.cpp",
+  "file": "/Users/wenjun/Documents/GitHub/CG/Final/src/main.cpp",
   "output": "CMakeFiles/FinalArmLab.dir/src/main.cpp.o"
 }
 ]

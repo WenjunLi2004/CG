@@ -1,8 +1,8 @@
 CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o: \
-  /Users/wenjun/Documents/CG/Final/src/MeshPainter.cpp \
-  /Users/wenjun/Documents/CG/Final/include/MeshPainter.h \
-  /Users/wenjun/Documents/CG/Final/include/TriMesh.h \
-  /Users/wenjun/Documents/CG/Final/include/Angel.h \
+  /Users/wenjun/Documents/GitHub/CG/Final/src/MeshPainter.cpp \
+  /Users/wenjun/Documents/GitHub/CG/Final/include/MeshPainter.h \
+  /Users/wenjun/Documents/GitHub/CG/Final/include/TriMesh.h \
+  /Users/wenjun/Documents/GitHub/CG/Final/include/Angel.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/cmath \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__config_site \
@@ -780,7 +780,7 @@ CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__fwd/stack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/print \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/unistd.h \
-  /Users/wenjun/Documents/CG/Final/include/glad/glad.h \
+  /Users/wenjun/Documents/GitHub/CG/Final/include/glad/glad.h \
   /opt/homebrew/include/KHR/khrplatform.h \
   /opt/homebrew/include/GLFW/glfw3.h /opt/homebrew/include/glm/glm.hpp \
   /opt/homebrew/include/glm/detail/_fixes.hpp \
@@ -1082,11 +1082,11 @@ CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o: \
   /opt/homebrew/include/glm/gtc/../mat4x2.hpp \
   /opt/homebrew/include/glm/gtc/../mat4x3.hpp \
   /opt/homebrew/include/glm/gtc/type_ptr.inl \
-  /Users/wenjun/Documents/CG/Final/include/CheckError.h \
+  /Users/wenjun/Documents/GitHub/CG/Final/include/CheckError.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__filesystem/path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/sstream \
-  /Users/wenjun/Documents/CG/Final/include/Camera.h \
-  /Users/wenjun/Documents/CG/Final/include/stb_image.h
+  /Users/wenjun/Documents/GitHub/CG/Final/include/Camera.h \
+  /Users/wenjun/Documents/GitHub/CG/Final/include/stb_image.h

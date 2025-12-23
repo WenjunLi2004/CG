@@ -1,5 +1,5 @@
 CMakeFiles/FinalArmLab.dir/src/glad.c.o: \
-  /Users/wenjun/Documents/CG/Final/src/glad.c \
+  /Users/wenjun/Documents/GitHub/CG/Final/src/glad.c \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_bounds.h \
@@ -92,7 +92,7 @@ CMakeFiles/FinalArmLab.dir/src/glad.c.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/secure/_string.h \
-  /Users/wenjun/Documents/CG/Final/include/glad/glad.h \
+  /Users/wenjun/Documents/GitHub/CG/Final/include/glad/glad.h \
   /opt/homebrew/include/KHR/khrplatform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/dlfcn.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/17/include/stdbool.h

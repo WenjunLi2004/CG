@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wenjun/Documents/CG/Final
+CMAKE_SOURCE_DIR = /Users/wenjun/Documents/GitHub/CG/Final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wenjun/Documents/CG/Final/build
+CMAKE_BINARY_DIR = /Users/wenjun/Documents/GitHub/CG/Final/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FinalArmLab.dir/depend.make
@@ -73,88 +73,88 @@ CMakeFiles/FinalArmLab.dir/codegen:
 .PHONY : CMakeFiles/FinalArmLab.dir/codegen
 
 CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o: CMakeFiles/FinalArmLab.dir/flags.make
-CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o: /Users/wenjun/Documents/CG/Final/src/Camera.cpp
+CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o: /Users/wenjun/Documents/GitHub/CG/Final/src/Camera.cpp
 CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o: CMakeFiles/FinalArmLab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wenjun/Documents/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o -MF CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o.d -o CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o -c /Users/wenjun/Documents/CG/Final/src/Camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wenjun/Documents/GitHub/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o -MF CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o.d -o CMakeFiles/FinalArmLab.dir/src/Camera.cpp.o -c /Users/wenjun/Documents/GitHub/CG/Final/src/Camera.cpp
 
 CMakeFiles/FinalArmLab.dir/src/Camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinalArmLab.dir/src/Camera.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wenjun/Documents/CG/Final/src/Camera.cpp > CMakeFiles/FinalArmLab.dir/src/Camera.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wenjun/Documents/GitHub/CG/Final/src/Camera.cpp > CMakeFiles/FinalArmLab.dir/src/Camera.cpp.i
 
 CMakeFiles/FinalArmLab.dir/src/Camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinalArmLab.dir/src/Camera.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wenjun/Documents/CG/Final/src/Camera.cpp -o CMakeFiles/FinalArmLab.dir/src/Camera.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wenjun/Documents/GitHub/CG/Final/src/Camera.cpp -o CMakeFiles/FinalArmLab.dir/src/Camera.cpp.s
 
 CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o: CMakeFiles/FinalArmLab.dir/flags.make
-CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o: /Users/wenjun/Documents/CG/Final/src/InitShader.cpp
+CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o: /Users/wenjun/Documents/GitHub/CG/Final/src/InitShader.cpp
 CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o: CMakeFiles/FinalArmLab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wenjun/Documents/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o -MF CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o.d -o CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o -c /Users/wenjun/Documents/CG/Final/src/InitShader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wenjun/Documents/GitHub/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o -MF CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o.d -o CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.o -c /Users/wenjun/Documents/GitHub/CG/Final/src/InitShader.cpp
 
 CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wenjun/Documents/CG/Final/src/InitShader.cpp > CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wenjun/Documents/GitHub/CG/Final/src/InitShader.cpp > CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.i
 
 CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wenjun/Documents/CG/Final/src/InitShader.cpp -o CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wenjun/Documents/GitHub/CG/Final/src/InitShader.cpp -o CMakeFiles/FinalArmLab.dir/src/InitShader.cpp.s
 
 CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o: CMakeFiles/FinalArmLab.dir/flags.make
-CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o: /Users/wenjun/Documents/CG/Final/src/MeshPainter.cpp
+CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o: /Users/wenjun/Documents/GitHub/CG/Final/src/MeshPainter.cpp
 CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o: CMakeFiles/FinalArmLab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wenjun/Documents/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o -MF CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o.d -o CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o -c /Users/wenjun/Documents/CG/Final/src/MeshPainter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wenjun/Documents/GitHub/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o -MF CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o.d -o CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.o -c /Users/wenjun/Documents/GitHub/CG/Final/src/MeshPainter.cpp
 
 CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wenjun/Documents/CG/Final/src/MeshPainter.cpp > CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wenjun/Documents/GitHub/CG/Final/src/MeshPainter.cpp > CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.i
 
 CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wenjun/Documents/CG/Final/src/MeshPainter.cpp -o CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wenjun/Documents/GitHub/CG/Final/src/MeshPainter.cpp -o CMakeFiles/FinalArmLab.dir/src/MeshPainter.cpp.s
 
 CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o: CMakeFiles/FinalArmLab.dir/flags.make
-CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o: /Users/wenjun/Documents/CG/Final/src/TriMesh.cpp
+CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o: /Users/wenjun/Documents/GitHub/CG/Final/src/TriMesh.cpp
 CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o: CMakeFiles/FinalArmLab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wenjun/Documents/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o -MF CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o.d -o CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o -c /Users/wenjun/Documents/CG/Final/src/TriMesh.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wenjun/Documents/GitHub/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o -MF CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o.d -o CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.o -c /Users/wenjun/Documents/GitHub/CG/Final/src/TriMesh.cpp
 
 CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wenjun/Documents/CG/Final/src/TriMesh.cpp > CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wenjun/Documents/GitHub/CG/Final/src/TriMesh.cpp > CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.i
 
 CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wenjun/Documents/CG/Final/src/TriMesh.cpp -o CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wenjun/Documents/GitHub/CG/Final/src/TriMesh.cpp -o CMakeFiles/FinalArmLab.dir/src/TriMesh.cpp.s
 
 CMakeFiles/FinalArmLab.dir/src/glad.c.o: CMakeFiles/FinalArmLab.dir/flags.make
-CMakeFiles/FinalArmLab.dir/src/glad.c.o: /Users/wenjun/Documents/CG/Final/src/glad.c
+CMakeFiles/FinalArmLab.dir/src/glad.c.o: /Users/wenjun/Documents/GitHub/CG/Final/src/glad.c
 CMakeFiles/FinalArmLab.dir/src/glad.c.o: CMakeFiles/FinalArmLab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wenjun/Documents/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FinalArmLab.dir/src/glad.c.o"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FinalArmLab.dir/src/glad.c.o -MF CMakeFiles/FinalArmLab.dir/src/glad.c.o.d -o CMakeFiles/FinalArmLab.dir/src/glad.c.o -c /Users/wenjun/Documents/CG/Final/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wenjun/Documents/GitHub/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FinalArmLab.dir/src/glad.c.o"
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FinalArmLab.dir/src/glad.c.o -MF CMakeFiles/FinalArmLab.dir/src/glad.c.o.d -o CMakeFiles/FinalArmLab.dir/src/glad.c.o -c /Users/wenjun/Documents/GitHub/CG/Final/src/glad.c
 
 CMakeFiles/FinalArmLab.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/FinalArmLab.dir/src/glad.c.i"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wenjun/Documents/CG/Final/src/glad.c > CMakeFiles/FinalArmLab.dir/src/glad.c.i
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/wenjun/Documents/GitHub/CG/Final/src/glad.c > CMakeFiles/FinalArmLab.dir/src/glad.c.i
 
 CMakeFiles/FinalArmLab.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/FinalArmLab.dir/src/glad.c.s"
-	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wenjun/Documents/CG/Final/src/glad.c -o CMakeFiles/FinalArmLab.dir/src/glad.c.s
+	/usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/wenjun/Documents/GitHub/CG/Final/src/glad.c -o CMakeFiles/FinalArmLab.dir/src/glad.c.s
 
 CMakeFiles/FinalArmLab.dir/src/main.cpp.o: CMakeFiles/FinalArmLab.dir/flags.make
-CMakeFiles/FinalArmLab.dir/src/main.cpp.o: /Users/wenjun/Documents/CG/Final/src/main.cpp
+CMakeFiles/FinalArmLab.dir/src/main.cpp.o: /Users/wenjun/Documents/GitHub/CG/Final/src/main.cpp
 CMakeFiles/FinalArmLab.dir/src/main.cpp.o: CMakeFiles/FinalArmLab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wenjun/Documents/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FinalArmLab.dir/src/main.cpp.o"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinalArmLab.dir/src/main.cpp.o -MF CMakeFiles/FinalArmLab.dir/src/main.cpp.o.d -o CMakeFiles/FinalArmLab.dir/src/main.cpp.o -c /Users/wenjun/Documents/CG/Final/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/wenjun/Documents/GitHub/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/FinalArmLab.dir/src/main.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FinalArmLab.dir/src/main.cpp.o -MF CMakeFiles/FinalArmLab.dir/src/main.cpp.o.d -o CMakeFiles/FinalArmLab.dir/src/main.cpp.o -c /Users/wenjun/Documents/GitHub/CG/Final/src/main.cpp
 
 CMakeFiles/FinalArmLab.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FinalArmLab.dir/src/main.cpp.i"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wenjun/Documents/CG/Final/src/main.cpp > CMakeFiles/FinalArmLab.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wenjun/Documents/GitHub/CG/Final/src/main.cpp > CMakeFiles/FinalArmLab.dir/src/main.cpp.i
 
 CMakeFiles/FinalArmLab.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FinalArmLab.dir/src/main.cpp.s"
-	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wenjun/Documents/CG/Final/src/main.cpp -o CMakeFiles/FinalArmLab.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wenjun/Documents/GitHub/CG/Final/src/main.cpp -o CMakeFiles/FinalArmLab.dir/src/main.cpp.s
 
 # Object files for target FinalArmLab
 FinalArmLab_OBJECTS = \
@@ -178,7 +178,7 @@ FinalArmLab: CMakeFiles/FinalArmLab.dir/build.make
 FinalArmLab: /opt/homebrew/lib/libglfw.3.4.dylib
 FinalArmLab: /opt/homebrew/lib/libglm.dylib
 FinalArmLab: CMakeFiles/FinalArmLab.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wenjun/Documents/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable FinalArmLab"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/wenjun/Documents/GitHub/CG/Final/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable FinalArmLab"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/FinalArmLab.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -190,6 +190,6 @@ CMakeFiles/FinalArmLab.dir/clean:
 .PHONY : CMakeFiles/FinalArmLab.dir/clean
 
 CMakeFiles/FinalArmLab.dir/depend:
-	cd /Users/wenjun/Documents/CG/Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wenjun/Documents/CG/Final /Users/wenjun/Documents/CG/Final /Users/wenjun/Documents/CG/Final/build /Users/wenjun/Documents/CG/Final/build /Users/wenjun/Documents/CG/Final/build/CMakeFiles/FinalArmLab.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/wenjun/Documents/GitHub/CG/Final/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wenjun/Documents/GitHub/CG/Final /Users/wenjun/Documents/GitHub/CG/Final /Users/wenjun/Documents/GitHub/CG/Final/build /Users/wenjun/Documents/GitHub/CG/Final/build /Users/wenjun/Documents/GitHub/CG/Final/build/CMakeFiles/FinalArmLab.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/FinalArmLab.dir/depend
 
